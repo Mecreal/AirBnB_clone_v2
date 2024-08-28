@@ -1,0 +1,120 @@
+.
+├── 0-setup_web_static.sh
+├── 1-pack_web_static.py
+├── 2-do_deploy_web_static.py
+├── 3-deploy_web_static.py
+├── AUTHORS
+├── console.py
+├── file.json
+├── models
+│   ├── amenity.py
+│   ├── base_model.py
+│   ├── city.py
+│   ├── engine
+│   │   ├── db_storage.py
+│   │   ├── file_storage.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── db_storage.cpython-310.pyc
+│   │       ├── db_storage.cpython-39.pyc
+│   │       ├── file_storage.cpython-310.pyc
+│   │       ├── file_storage.cpython-39.pyc
+│   │       ├── __init__.cpython-310.pyc
+│   │       └── __init__.cpython-39.pyc
+│   ├── __init__.py
+│   ├── place.py
+│   ├── __pycache__
+│   │   ├── amenity.cpython-310.pyc
+│   │   ├── amenity.cpython-39.pyc
+│   │   ├── base_model.cpython-310.pyc
+│   │   ├── base_model.cpython-39.pyc
+│   │   ├── city.cpython-310.pyc
+│   │   ├── city.cpython-39.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── __init__.cpython-39.pyc
+│   │   ├── place.cpython-310.pyc
+│   │   ├── place.cpython-39.pyc
+│   │   ├── review.cpython-310.pyc
+│   │   ├── review.cpython-39.pyc
+│   │   ├── state.cpython-310.pyc
+│   │   ├── state.cpython-39.pyc
+│   │   ├── user.cpython-310.pyc
+│   │   └── user.cpython-39.pyc
+│   ├── review.py
+│   ├── state.py
+│   └── user.py
+├── README.md
+├── requirements.txt
+├── run.bash
+├── setup_mysql_dev.sql
+├── setup_mysql_test.sql
+├── test.bash
+├── test_params_create
+├── tests
+│   ├── __init__.py
+│   └── test_models
+│       ├── __init__.py
+│       ├── test_amenity.py
+│       ├── test_base_model.py
+│       ├── test_city.py
+│       ├── test_console.py
+│       ├── test_engine
+│       │   ├── __init__.py
+│       │   ├── test_db_storage.py
+│       │   └── test_file_storage.py
+│       ├── test_place.py
+│       ├── test_review.py
+│       ├── test_state.py
+│       └── test_user.py
+├── tree
+└── web_static
+    ├── 0-index.html
+    ├── 100-index.html
+    ├── 101-index.html
+    ├── 102-index.html
+    ├── 103-index.html
+    ├── 1-index.html
+    ├── 2-index.html
+    ├── 3-index.html
+    ├── 4-index.html
+    ├── 5-index.html
+    ├── 6-index.html
+    ├── 7-index.html
+    ├── 8-index.html
+    ├── images
+    │   ├── icon_bath.png
+    │   ├── icon_bed.png
+    │   ├── icon_group.png
+    │   ├── icon.ico
+    │   ├── icon_pets.png
+    │   ├── icon_tv.png
+    │   ├── icon_wifi.png
+    │   └── logo.png
+    ├── README.md
+    └── styles
+        ├── 100-places.css
+        ├── 101-places.css
+        ├── 102-common.css
+        ├── 102-filters.css
+        ├── 102-footer.css
+        ├── 102-header.css
+        ├── 102-places.css
+        ├── 103-common.css
+        ├── 103-filters.css
+        ├── 103-footer.css
+        ├── 103-header.css
+        ├── 103-places.css
+        ├── 2-common.css
+        ├── 2-footer.css
+        ├── 2-header.css
+        ├── 3-common.css
+        ├── 3-footer.css
+        ├── 3-header.css
+        ├── 4-common.css
+        ├── 4-filters.css
+        ├── 5-filters.css
+        ├── 6-filters.css
+        ├── 7-places.css
+        └── 8-places.css
+
+10 directories, 107 files
